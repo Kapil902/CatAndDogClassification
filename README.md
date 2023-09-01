@@ -4,12 +4,12 @@
 
 We create a directory named .kaggle in the user's home directory.
 We copy the Kaggle API key (downloaded from the Kaggle profile) into this directory. This key allows us to download datasets from Kaggle using the Kaggle command-line tool.
-##Downloading and Extracting the Dataset:
+Downloading and Extracting the Dataset:
 
 Up next download the "dogs-vs-cats" dataset from Kaggle using the Kaggle CLI. This dataset likely contains a large number of images of both cats and dogs.
 Then extract the downloaded ZIP file to the /content directory.
-##Importing Necessary Libraries:
 
+Importing Necessary Libraries:
 We import TensorFlow and Keras, popular deep learning frameworks for building and training neural networks.
 Various layers and utilities from Keras are imported for constructing the CNN model.
 Creating Data Generators:
